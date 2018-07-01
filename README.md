@@ -13,3 +13,12 @@
 <p align="center">
   <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Garage%20Sensor%20Topo.png"/>
 </p>
+
+<h3 align="left">Garage Door Sensor Hardware</h3> 
+<img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Pycom.png" width="200"/> 
+<p align="left">I used the Pycom WiPy as my micro controller and the Pycom expansion board for my pin breakouts.
+<hr --- </hr>
+
+| [Pycom WiPy 3.0](https://core-electronics.com.au/pycom-wipy-3-0.html) | [Pycom Expansion Board 3.0](https://core-electronics.com.au/pycom-expansion-board-3-0-42869.html) | [HC-SR04](https://core-electronics.com.au/hc-sr04-ultrasonic-module-distance-measuring-sensor.html) | [ABS Enclosure](https://www.jaycar.com.au/snap-fit-abs-enclosure-50-4-x-50-x-27mm/p/HB6006) |
+| --- | --- | --- | --- |
+| <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/WiPy.jpg" width="250"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Expansion%20Board.jpg" width="250"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Ultrasonic.jpg" width="250"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Enclosure.jpg" width="250"/> |
