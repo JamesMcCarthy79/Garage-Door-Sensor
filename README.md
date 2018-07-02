@@ -4,6 +4,9 @@
 <h1 align="center">Garage-Door-Sensor</h1>
 <p align="center">Build Description for my Garage Door Sensor and Integration into Home Assistant</p>
 <p align="center">Be sure to :star: my repo!</p>
+<p align="center">
+  <href="https://pycom.io/downloads/"><img src="https://img.shields.io/badge/WiPy-v1.18.0-5294E2.svg"/>
+  <href="https://pycom.io/downloads/"><img src="https://img.shields.io/badge/Sensor%20Code-v1.0-5294E2.svg"/>
 <hr --- </hr> 
 <p align="center">
   This repo is help anyone that wishes to build a cheap distance sensor to determine if your garage door is open/closed and if your car is parked inside or not.</p>
@@ -22,3 +25,12 @@
 | [Pycom WiPy 3.0](https://core-electronics.com.au/pycom-wipy-3-0.html) | [Pycom Expansion Board 3.0](https://core-electronics.com.au/pycom-expansion-board-3-0-42869.html) | [HC-SR04](https://core-electronics.com.au/hc-sr04-ultrasonic-module-distance-measuring-sensor.html) | [ABS Enclosure](https://www.jaycar.com.au/snap-fit-abs-enclosure-50-4-x-50-x-27mm/p/HB6006) |
 | --- | --- | --- | --- |
 | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/WiPy.jpg" width="250"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Expansion%20Board.jpg" width="250"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Ultrasonic.jpg" width="250"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Enclosure.jpg" width="250"/> |
+
+<h3 align="left">Setup Guide</h3> 
+<h4 align="left">Step One - Update to Latest Firmware</h4>
+You will firstly need to update your boards firmware to the latest version details of how to do this can be found here...(https://docs.pycom.io/chapter/gettingstarted/installation/firmwaretool.html)
+<h4 align="left">Step Two - Upload Code to Board</h4>
+To access your board you will need to load up your favourite editor I use Atom it has a plugin called pymakr designed for programming your pycom boards. Copy all the contents from within the Garage Sensor folder and add them to the root of your module. You will need to edit the 
+  
+  
+<hr --- </hr>
