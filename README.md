@@ -47,4 +47,8 @@ You will firstly need to update your boards firmware to the latest version detai
 <p>Lastly it's time to adjust the distances to suit your purpose open the `main.py` and scroll down to line 57. This line will print on the screen the actual distance to an object in "cm" you can use this to adjust the lines below to your own use case.</br>
 <p>Line 58 - Is your distance when the door is open I use the distance measured when the door is closed plus 1cm.</br>
 <p>Line 59 - This is the payload that is will be sent to your broker if the door is "open"</br>
-<p>Line 
+<p>Line 61 - Is your distance if an object is between your sensor placement and the door, this could be your car or surfboard has fallen into the path. I set mine to be lower lower then the distance of the closed door measurement.</p>
+<p>Line 62 - This is the payload that will be sent to your broker if the path to the door is obstructed</p>
+<p>Line 64 - This is the payload that will be sent if the above conditions are not met for me I have set this as the door being "closed".</p>
+<p align="center">
+  <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Garage%20Sensor%20Screenshots/05.%20Set%20Distances.png" width="500"/> 
