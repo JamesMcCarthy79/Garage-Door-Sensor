@@ -52,3 +52,5 @@ You will firstly need to update your boards firmware to the latest version detai
 <p>Line 64 - This is the payload that will be sent if the above conditions are not met for me I have set this as the door being "closed".</p>
 <p align="center">
   <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Garage%20Sensor%20Screenshots/05.%20Set%20Distances.png" width="500"/> 
+  
+For an example on how I intergrated this sensor into Home Assistant please see my package here https://github.com/JamesMcCarthy79/Home-Assistant-Config/tree/master/config/packages/garage_door
