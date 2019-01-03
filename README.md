@@ -47,7 +47,7 @@ You will firstly need to update your boards firmware to the latest version detai
 <p>Lastly it's time to adjust the distances to suit your purpose open the `main.py` and scroll down to line 57. This line will print on the screen the actual distance to an object in "cm" you can use this to adjust the lines below to your own use case.</br>
 <p>Line 58 - Is your distance when the door is open I use the distance measured when the door is closed plus 1cm.</br>
 <p>Line 59 - This is the payload that is will be sent to your broker if the door is "open"</br>
-<p>Line 61 - Is your distance if an object is between your sensor placement and the door, this could be your car or surfboard has fallen into the path. I set mine to be lower lower then the distance of the closed door measurement.</p>
+<p>Line 61 - Is your distance if an object is between your sensor placement and the door, this could be your car or surfboard has fallen into the path. I set mine to be lower then the distance of the closed door measurement.</p>
 <p>Line 62 - This is the payload that will be sent to your broker if the path to the door is obstructed</p>
 <p>Line 64 - This is the payload that will be sent if the above conditions are not met for me I have set this as the door being "closed".</p>
 <p align="center">
@@ -61,4 +61,4 @@ You will firstly need to update your boards firmware to the latest version detai
 | --- | --- |
 | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Sensor%20Install%20Pics/20180614_120654.jpg" width="500"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Sensor%20Install%20Pics/20180614_120804.jpg" width="500"/> |
 
-For an example on how I intergrated this sensor into Home Assistant please see my package here https://github.com/JamesMcCarthy79/Home-Assistant-Config/tree/master/config/packages/garage_door
+For an example on how I integrated this sensor into Home Assistant please see my package here https://github.com/JamesMcCarthy79/Home-Assistant-Config/tree/master/config/packages/garage_door
