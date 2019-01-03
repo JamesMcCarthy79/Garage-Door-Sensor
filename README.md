@@ -28,7 +28,9 @@
 
 <h3 align="left">Setup Guide</h3> 
 <h4 align="left">Step One - Update to Latest Firmware</h4>
-You will firstly need to update your boards firmware to the latest version details of how to do this can be found here...(https://docs.pycom.io/chapter/gettingstarted/installation/firmwaretool.html)
+
+You will firstly need to update your boards firmware to the latest version details of how to do this can be found [here...](https://docs.pycom.io/chapter/gettingstarted/installation/firmwaretool.html)
+
 <h4 align="left">Step Two - Upload Code to Board</h4>
 <p>To access your board you will need to load up your favourite editor I use Atom it has a plugin called pymakr designed for programming your pycom boards. Copy all the contents from within the `Garage Sensor folder` and add them to the root of your module.</p>
 <p align="center">
@@ -61,4 +63,4 @@ You will firstly need to update your boards firmware to the latest version detai
 | --- | --- |
 | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Sensor%20Install%20Pics/20180614_120654.jpg" width="500"/> | <img src="https://github.com/JamesMcCarthy79/Garage-Door-Sensor/blob/master/Garage%20Door%20Sensor%20Pics/Sensor%20Install%20Pics/20180614_120804.jpg" width="500"/> |
 
-For an example on how I integrated this sensor into Home Assistant please see my package here https://github.com/JamesMcCarthy79/Home-Assistant-Config/tree/master/config/packages/garage_door
+For an example on how I integrated this sensor into Home Assistant please see my [package here](https://github.com/JamesMcCarthy79/Home-Assistant-Config/tree/master/config/packages/garage_door)
